@@ -8,7 +8,7 @@ Please ensure that you have access to the SuperPOD cluster, either using the edu
 
 Setup
 ---
-1. Once you have connected to the SuperPOD cluster through SSH, run the following commands to  retrieve the PySpark running environment. The resulting image is stored in the generated `spark-py_latest.sif` file.
+1. Once you have connected to the SuperPOD cluster through SSH and cloned this repository within the login node, run the following commands to  retrieve the PySpark running environment in this directory. The resulting image is stored in the generated `spark-py_latest.sif` file.
 ```bash
 $ module load apptainer
 $ apptainer pull docker://apache/spark-py

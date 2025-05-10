@@ -12,4 +12,4 @@ module load apptainer
 
 pip install pyspark nltk
 
-apptainer run spark-py_latest.sif bash /home/wlluk/msbd5003/run.sh
+apptainer run spark-py_latest.sif bash run.sh
