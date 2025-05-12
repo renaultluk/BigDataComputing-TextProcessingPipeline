@@ -25,8 +25,8 @@ There are 3 jobs defined in this repository, and the file names are aligned acco
 Job Name | Description
 --- | ---
 msbd5003 | Preprocessing to TF-IDF flow on the [Text Document Classification Dataset](https://www.kaggle.com/datasets/sunilthite/text-document-classification-dataset/data)
-msbd5003_medium | LDA on the dataset with all scalability tests and hyperparameter tuning
-msbd5003_medium_1b | LDA on the dataset with core model logic and evaluation only
+msbd5003_medium | LDA on the [20 Newsgroups dataset](https://www.kaggle.com/datasets/crawford/20-newsgroups/data) with all scalability tests and hyperparameter tuning
+msbd5003_medium_1b | LDA on the [20 Newsgroups dataset](https://www.kaggle.com/datasets/crawford/20-newsgroups/data) with core model logic and evaluation only
 
 3. Any outputs or logs from the runtime can be found in the `slurm.out` or `lda_job_{job ID}.out` file, and any errors can be found in `lda_job_{job ID}.err`.
 
